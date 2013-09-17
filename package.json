@@ -1,0 +1,33 @@
+{
+	"name": "insert-style",
+	"description": "Simple helper for inserting new css rules into page (not into element).",
+	"version": "1.0.0",
+	"author": {
+		"name": "David Kudera",
+		"email": "sakren@gmail.com"
+	},
+	"keywords": [
+		"css",
+		"style",
+		"inject",
+		"insert",
+		"html",
+		"browser"
+	],
+	"repository": {
+		"type": "git",
+		"url": "git@github.com:sakren/node-insert-style.git"
+	},
+	"license": "MIT",
+	"engines": {
+		"node": "*"
+	},
+	"main": "./lib/Style.js",
+	"devDependencies": {
+		"mocha": "latest",
+		"chai": "latest"
+	},
+	"scripts": {
+		"test": "cd ./test; mocha-phantomjs index.html;"
+	}
+}

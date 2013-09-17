@@ -1,0 +1,17 @@
+{
+	"packages": {
+		"modal": {
+			"base": "../",
+			"application": "./test/modules.js",
+			"modules": [
+				"./src/Style.coffee"
+			],
+			"aliases": {
+				"insert-style": "src/Style"
+			}
+		}
+	},
+	"debugger": {
+		"scripts": true
+	}
+}
